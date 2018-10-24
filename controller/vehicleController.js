@@ -20,6 +20,7 @@ class vehicleController {
     static read (req, res) {
         vehicleModel
             .find({})
+            .sort({order: 'ascending'})
             .then((data => {
                 res
                 .status(200)
