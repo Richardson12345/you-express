@@ -5,9 +5,9 @@ ___
 
 |   type | endpoint |   |                                   body | params | response |
 |-------:|:--------:|---|---------------------------------------:|--------|----------|
-| GET    |     /    |   |                                      - |        | 200      |
-| POST   |     /    |   | - tipe - image_source - weight - order |        | 201      |
-| PUT    |   /:id   |   | - tipe - image_source - weight - order | id     | 201      |
-| DELETE |  /:id    |   |                                        | id     | 201      |
+| GET    |  https://you-express-server.richardsondomain.xyz/    |   |                                      - |        | 200      |
+| POST   |  https://you-express-server.richardsondomain.xyz/    |   | - tipe - image_source - weight - order |        | 201      |
+| PUT    |   https://you-express-server.richardsondomain.xyz/:id   |   | - tipe - image_source - weight - order | id     | 201      |
+| DELETE |  https://you-express-server.richardsondomain.xyz/:id    |   |                                        | id     | 201      |
 
 ___
